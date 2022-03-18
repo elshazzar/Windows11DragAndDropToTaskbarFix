@@ -14,14 +14,14 @@ You can include the following variables to your `Windows11DragAndDropToTaskbarFi
 - 1 = YES. The program will create the `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run\Windows11DragAndDropToTaskbarFix` registry key.
 - 0 = NO. The program will delete the existing autorun registry key if it exists.
 ```
-AutomaticallyRunThisProgramOnStartup=0
+AutomaticallyRunThisProgramOnStartup=1
 ```
 
 #### Should the program start as administrator?
 - 1 = YES. The program will check if the current instance is elevated. If it isn't, the program will show the UAC prompt asking to start it as administrator.
 - 0 = NO. The program will work in the normal mode, but dragging from the other programs that are running as administrator might not work.
 ```
-StartThisProgramAsAdministrator=0
+StartThisProgramAsAdministrator=1
 ```
 
 #### Should the program show the console window when it starts?
